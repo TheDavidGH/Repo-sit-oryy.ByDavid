@@ -1,4 +1,7 @@
-// EX10
-var NC = 'DavidJorda'
-console.log(NC.substr(0,5)); 
-console.log(NC.substr(6,4)); 
+// EX11
+console.log(x)
+var x = undefined;
+
+var y = null;
+console.log(typeof y); 
+console.log(x+y); 
