@@ -1,6 +1,5 @@
-//EX3
-console.log(saludo)
+//EX4
 var saludo='Hola'
-
-console.log(respect)
-let respect = 'Buenas'
+console.log(saludo)
+var saludo ='adios'
+console.log(saludo)
