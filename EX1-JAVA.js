@@ -1,5 +1,5 @@
-//EX4
-var saludo='Hola'
+//EX5
+const saludo='Hola'
 console.log(saludo)
-var saludo ='adios'
+const saludo ='Adios'
 console.log(saludo)
