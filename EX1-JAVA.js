@@ -1,7 +1,6 @@
-//EX2
-var saludo = 'Hola'
-let respect = 'Buenas'
-const nombre = 'David'
+//EX3
 console.log(saludo)
+var saludo='Hola'
+
 console.log(respect)
-console.log(nombre)
+let respect = 'Buenas'
