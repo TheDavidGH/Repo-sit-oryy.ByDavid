@@ -1,7 +1,4 @@
-//EX8
-function dividir(a, b) {
-
-return a/b;
-}
-let resultd = dividir( 'Hola' , 8);
-console . log( 'Multiplicar= '+ resultd);
+// EX10
+var NC = 'DavidJorda'
+console.log(NC.substr(0,5)); 
+console.log(NC.substr(6,4)); 
