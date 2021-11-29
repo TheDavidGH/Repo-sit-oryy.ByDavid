@@ -1,9 +1,6 @@
-//EX14
-var posicio = (firstPos,secondPos) => {
-    return (firstPos.length-firstPos.indexOf(secondPos))
-}
-console. log(posicio('Hola bon dia profe' ,'en'));
-var dividir = (therdPos,fourthPos) => {
-    return fourthPos. substr(therdPos,fourthPos.length)
-}
-console. log(dividir(posicio( 'Adeu profe que passe buena tarde', 'en'), 'Goodafter non & night'))
+//EX15
+var firstPos = (x) => x + x + x 
+console.log(firstPos(50))
+
+var secondPos = (p, n, r, t) => p * Math.pow(1 + (r / n), n * t)
+console. log( secondPos(9, 8, 7, 6))
