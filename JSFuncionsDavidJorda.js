@@ -1,6 +1,6 @@
-//EX 1
-function fullName(name = "David " + "Jorda" + " Bergtath"){
-    console.log (name)
+//EX 2
+function funcionNumber(number = 1 ){
+    console.log (typeof(number))
 
 }
-fullName();
+funcionNumber();
