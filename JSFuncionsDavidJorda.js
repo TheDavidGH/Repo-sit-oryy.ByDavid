@@ -1,6 +1,6 @@
-//EX 2
+//EX 3
 function funcionNumber(number = 1 ){
-    console.log (typeof(number))
-
+    var f = new Date();
+    console.log(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
 }
 funcionNumber();
