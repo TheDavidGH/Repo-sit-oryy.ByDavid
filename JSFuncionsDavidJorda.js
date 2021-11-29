@@ -1,7 +1,8 @@
-//EX 4
-function funcionNumber(){
-    var nombeMio = "David :V"
-    console.log(nombeMio)
+//EX5
+function vocales(str) {
+    const contar = str.match(/[aeiou]/gi).length;
+    return contar;
 }
-funcionNumber();
-// no se porque es re chingo ni entendi necesito help de un compa 
+var contarAEIOU = 'Esto es una quadena de texto';
+const resultado = vocales(contarAEIOU);
+console.log(resultado);
