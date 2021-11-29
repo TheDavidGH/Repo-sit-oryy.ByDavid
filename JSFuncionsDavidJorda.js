@@ -1,3 +1,3 @@
-//EX11
-var arrel = firstNum => Math. sqrt(firstNum).toFixed(2)
-console.log(arrel(50,51))
+//EX12
+var FirstPos = FirstNum => FirstNum. toLowerCase()
+console. log(FirstPos( 'PROFE ESTO ESA EN MINUSCULA' ))
