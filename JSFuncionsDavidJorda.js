@@ -1,8 +1,8 @@
-//EX5
-function vocales(str) {
-    const contar = str.match(/[aeiou]/gi).length;
-    return contar;
+//EX 6
+function suma(){
+    return firstPos,secondPos,therdPos;
 }
-var contarAEIOU = 'Esto es una quadena de texto';
-const resultado = vocales(contarAEIOU);
-console.log(resultado);
+    var firstPos = 3
+    var secondPos = 1
+    var therdPos = 2
+    console.log (firstPos+secondPos+therdPos)
