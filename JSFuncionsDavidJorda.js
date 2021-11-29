@@ -1,6 +1,7 @@
-//EX 3
-function funcionNumber(number = 1 ){
-    var f = new Date();
-    console.log(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+//EX 4
+function funcionNumber(){
+    var nombeMio = "David :V"
+    console.log(nombeMio)
 }
 funcionNumber();
+// no se porque es re chingo ni entendi necesito help de un compa 
