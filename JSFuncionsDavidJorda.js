@@ -1,7 +1,7 @@
-//EX9
-var igualtad = function (firstPos, secondPos) {
-if (firstPos == 30 || secondPos == 30 || firstPos + secondPos == 30){
-return true
-    }
+//EX10
+var num = (firstPos,secondPos) => {
+    if (firstPos===secondPos)
+    return true
+    else return false
 }
-console.log(igualtad(15, 15))
+console. log(num(2468 ,2468))
