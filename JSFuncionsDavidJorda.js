@@ -1,3 +1,6 @@
 //EX 1
-var fullname = "David Jorda Bergtath";
-console.log (fullname)
+function fullName(name = "David " + "Jorda" + " Bergtath"){
+    console.log (name)
+
+}
+fullName();
