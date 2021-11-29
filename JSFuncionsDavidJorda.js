@@ -4,4 +4,4 @@ var num = (firstPos,secondPos) => {
     return true
     else return false
 }
-console. log(num(2468 ,2468))
+console. log(num(2468,2460))
