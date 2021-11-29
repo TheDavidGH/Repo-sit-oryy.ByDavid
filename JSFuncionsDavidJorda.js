@@ -1,19 +1,7 @@
-//EX 3
-    function funcionNumber(number = 1 ){
-        var f = new Date();
-        console.log(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+//EX8
+function num(firstPos, secondPos) {
+if (firstPos == 30 || secondPos == 30 || firstPos + secondPos == 30){
+return true
     }
-    funcionNumber();
-
-//EX 6
-    function suma(){
-        return firstPos,secondPos,therdPos;
-    }
-        var firstPos = 3
-        var secondPos = 1
-        var therdPos = 2
-        console.log (firstPos+secondPos+therdPos)
-
-//EX 7
-    funcionNumber();
-    console.log(firstPos+secondPos+therdPos)
+}
+console.log(num(30, 15))
