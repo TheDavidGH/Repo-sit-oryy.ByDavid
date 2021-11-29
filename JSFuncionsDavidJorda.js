@@ -1,7 +1,3 @@
-//EX10
-var num = (firstPos,secondPos) => {
-    if (firstPos===secondPos)
-    return true
-    else return false
-}
-console. log(num(2468,2460))
+//EX11
+var arrel = firstNum => Math. sqrt(firstNum).toFixed(2)
+console.log(arrel(50,51))
