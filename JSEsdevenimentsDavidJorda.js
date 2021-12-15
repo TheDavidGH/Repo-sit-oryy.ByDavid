@@ -1,15 +1,8 @@
-//EX 4            
-
-var boton_click = document.getElementById("clic");
-var boton_restart = document.getElementById("restart");
-var count = document.getElementById("contador");
-var contador = 0;
-
-function clic () {
-    contador = -1;
-}
-
-function Restart () {
-    contador++;
-    count.textContent = contador;
+//EX 5
+var codi = '';
+document.onkeydown = function(i) {
+    codi += i.key;
+    if(codi==="Enter"){
+        window.open(url="https://www.youtube.com/watch?v=RCA3EfKUJMw")
+    }
 }
