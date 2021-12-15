@@ -1,8 +1,11 @@
-//EX 1 
-function botonDelRatonAbajo() {
-document.body.style.backgroundColor = 'blue';
+//EX 2
+// mirar cual estas presionando en kb(keyboard)
+document.onkeydown = function(e){
+document.getElementById("keyCupId").innerHTML=e.key;
 }
-function botonDelRatonArriba() {
-document.body.style.backgroundColor = 'orange';
+// limpiar la pantalla
+document.onkeyup = function(){
+document.getElementById("keyCupId").innerHTML=" "
 }
 
+//no se como mostrartelo en grande no se si tengo que usar css 
