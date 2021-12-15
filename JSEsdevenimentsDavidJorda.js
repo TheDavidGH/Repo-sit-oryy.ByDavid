@@ -1,11 +1,7 @@
-//EX 2
-// mirar cual estas presionando en kb(keyboard)
-document.onkeydown = function(e){
-document.getElementById("keyCupId").innerHTML=e.key;
-}
-// limpiar la pantalla
-document.onkeyup = function(){
-document.getElementById("keyCupId").innerHTML=" "
-}
+//EX 3
+let presionAnterior= ' ';
 
-//no se como mostrartelo en grande no se si tengo que usar css 
+document.onkeydown = function(presionDeNow) {
+    presionAnterior = presionAnterior + presionDeNow.key;
+document.getElementById("keyCupId").innerHTML=presionAnterior;
+}
