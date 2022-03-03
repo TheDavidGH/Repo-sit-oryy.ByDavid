@@ -1,0 +1,1 @@
+document.getElementById("titol").style.color = "yellow";
